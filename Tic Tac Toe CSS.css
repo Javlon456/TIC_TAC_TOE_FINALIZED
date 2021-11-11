@@ -1,0 +1,29 @@
+h1, h3{
+    text-align: center;
+}
+
+.board {
+    border: 10px black solid;
+    margin: auto;
+    width:90%;
+}
+.row {
+    height: 200px;
+    background-color:orange;
+    display: flex;
+}
+
+.box {
+    width:33.33%;
+    font-size:200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-1, .row-2 {
+    border-bottom: black solid 10px;
+}
+
+.col-1, .col-2 {
+    border-right: black solid 10px;
+}
